@@ -1,1 +1,9 @@
-第一次使用github创建文件夹和文件
+const eexpress=require('express');
+const app = express();
+app.use('/index',(req,res)=>{
+  res.send("hello world！");
+}
+);
+app.listen(3000，（）=>{
+  console.log('The server is running...');
+})
