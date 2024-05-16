@@ -1,4 +1,4 @@
-const eexpress=require('express');
+const express=require('express');
 const app = express();
 app.use('/index',(req,res)=>{
   res.send("hello world！");
